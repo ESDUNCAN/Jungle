@@ -18,6 +18,14 @@
   </div>
 
   <%else %>
+
+  <div>
+    <%= button_to add_item_cart_path(product_id: product.id), class: 'btn', :disabled => true,
+    method: :post do %>
+      <%= fa_icon "shopping-cart", text: 'Add' %> 
+    <% end %>
+  </div>
+
   
   <div>
     <%= button_to remove_item_cart_path(product_id: product.id), class: 'btn soldout',
@@ -26,12 +34,7 @@
     <% end %>
   </div>
 
-  <div>
-    <%= button_to add_item_cart_path(product_id: product.id), class: 'btn', :disabled => true,
-    method: :post do %>
-      <%= fa_icon "shopping-cart", text: 'Add' %> 
-    <% end %>
-  </div>
+  
 
   <%end%>
   </div>

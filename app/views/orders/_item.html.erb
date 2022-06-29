@@ -1,0 +1,21 @@
+<tr>
+  <td>
+    <%= image_tag product.image.tiny.url %>
+  </td>
+  <td>
+    <h4><%= product.name %></h4>
+    <br>
+    <p><%= product.description %></p>
+  </td>
+  <td>
+    <%= number_to_currency(product.price, precision: 2) %>
+  </td>
+  <td>
+    <div>
+    <%= quantity %>
+    </div>
+  </td>
+  <td>
+    <%= number_to_currency(product.price * quantity, precision: 2) %>
+  </td>
+</tr>

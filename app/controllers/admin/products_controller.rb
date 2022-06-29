@@ -36,5 +36,7 @@ class Admin::ProductsController < ApplicationController
       :price
     )
   end
+  
+  http_basic_authenticate_with :name => "Jungle", :password => "book"
 
 end

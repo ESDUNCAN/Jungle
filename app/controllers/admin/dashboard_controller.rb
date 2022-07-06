@@ -1,6 +1,6 @@
 class Admin::DashboardController < ApplicationController
 
-  before_filter :authorize
+  before_action :authorize
 
   def show
       @productCount = Product.all.count

@@ -34,6 +34,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
-!["Screenshot of the home page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/Jungle_homepage.png)
 !["Screenshot of the admin products page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/admin_products_page.png)
 !["Screenshot of the empty cart page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/empty_cart.png)

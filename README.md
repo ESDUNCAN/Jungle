@@ -12,6 +12,8 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+9. Create an account with a MINIMUM PASSWORD LENGTH of 8 characters
+10. See .env.example for authentication information
 
 ## Database
 
@@ -29,3 +31,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Final Product
+
+!["Screenshot of the home page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/Jungle_homepage.png)
+!["Screenshot of the admin products page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/admin_products_page.png)
+!["Screenshot of the empty cart page"](https://github.com/ESDUNCAN/Jungle/blob/master/docs/empty_cart.png)
